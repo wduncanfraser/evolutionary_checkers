@@ -2,7 +2,7 @@ language: cpp
 
 compiler:
   - gcc
-  - clan
+  - clang
 
 before_script:
   - mkdir bin
