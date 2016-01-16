@@ -17,9 +17,6 @@ set(SOURCE_NET_TEST
 set(SOURCE_BOARD_TEST
     test_gameboard.cpp)
 
-set(SOURCE_DB_TEST
-    test_db.cpp)
-
 set(SOURCE_CHECKERSTRAINING
     checkerstraining.cpp)
 
