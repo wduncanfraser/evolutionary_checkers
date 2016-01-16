@@ -1,0 +1,16 @@
+Timings:
+Each iteration generates a new set of random inputs and runs them through the feedForward on the already initialized board.
+
+MacBook Pro: Mid 2010 with 2.66ghz i7, OS X 10.9.1. GCC 4.7.3
+
+Elapsed time initializing NeuralNet: 0.005865s
+Elapsed time evaluating 1,000,000 iterations: 1.23735s
+Iterations per second: 808181
+
+Desktop: Quad Core i5-3570K@4.2ghz, Debian 7 Stable. GCC 4.7.2
+
+Elapsed time initializing NeuralNet: 0.000803s
+Elapsed time evaluating 1,000,000 iterations: 0.603317s
+Iterations per second: 1.6575e+06
+
+Time per generation on Pacman with 16 cores: ~90 minutes for 100 networks

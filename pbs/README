@@ -1,0 +1,23 @@
+
+PBS Commands for Job Management
+================================
+
+   Command              Description 
+   --------------       -----------------------------------------
+   qsub <pbsScript>     submit jobs to a queue
+   qdel <jobNumber>     delete a job from the queue   
+   qmap                 display a map of the system (ARSC only)
+   qmap -u <username>   list all users' jobs
+   qstat -f <jobNumber> show all information about a running/queued job
+   show_usage           list remaining project allocation
+
+
+
+Being a Member of Multiple Projects
+====================================
+  If you are a member of more than one project with allocation on this machine,
+  please add the following line in your PBS script to indicate which project you
+  would like the allocation charged to:
+
+	#PBS -W group_list=MYPROJECT
+
