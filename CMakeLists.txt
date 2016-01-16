@@ -26,6 +26,5 @@ set(SOURCE_CHECKERSCLIENT
 
 add_executable(test_neuralnet ${SOURCE_LIBS} ${SOURCE_NET_TEST})
 add_executable(test_gameboard ${SOURCE_LIBS} ${SOURCE_BOARD_TEST})
-add_executable(test_db ${SOURCE_LIBS} ${SOURCE_DB_TEST})
 add_executable(checkerstraining ${SOURCE_LIBS} ${SOURCE_CHECKERSTRAINING})
 add_executable(checkersclient ${SOURCE_LIBS} ${SOURCE_CHECKERSCLIENT})
