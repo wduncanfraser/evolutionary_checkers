@@ -9,4 +9,4 @@ before_script:
   - cd bin
   - cmake ..
 
-script: make
+script: make && ./test_gameboard && ./test_neuralnet
